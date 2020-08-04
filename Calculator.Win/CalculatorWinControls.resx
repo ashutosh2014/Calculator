@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bntPoint" xml:space="preserve">
+    <value>.,38,32,2,142,307,fntConsolas</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>+,38,32,2,195,113,fntConsolas</value>
+  </data>
+  <data name="btnBackspace" xml:space="preserve">
+    <value>&lt;-,38,32,2,90,113,fntConsolas</value>
+  </data>
+  <data name="btnClear" xml:space="preserve">
+    <value>AC,38,32,2,38,113,fntConsolas</value>
+  </data>
+  <data name="btnClearEntry" xml:space="preserve">
+    <value>CE,38,32,2,142,113,fntConsolas</value>
+  </data>
+  <data name="btnCloseBracket" xml:space="preserve">
+    <value>),38,32,2,352,113,fntConsolas</value>
+  </data>
+  <data name="btnCosine" xml:space="preserve">
+    <value>cos,38,32,2,300,259,fntConsolas</value>
+  </data>
+  <data name="btnDivide" xml:space="preserve">
+    <value>/,38,32,2,195,259,fntConsolas</value>
+  </data>
+  <data name="btnEight" xml:space="preserve">
+    <value>8,38,32,2,90,161,fntConsolasBold</value>
+  </data>
+  <data name="btnFive" xml:space="preserve">
+    <value>5,38,32,2,90,210,fntConsolasBold</value>
+  </data>
+  <data name="btnFour" xml:space="preserve">
+    <value>4,38,32,2,38,210,fntConsolasBold</value>
+  </data>
+  <data name="btnLog10" xml:space="preserve">
+    <value>log,38,32,2,352,307,fntConsolas</value>
+  </data>
+  <data name="btnLogE" xml:space="preserve">
+    <value>ln,38,32,2,300,307,fntConsolas</value>
+  </data>
+  <data name="btnMC" xml:space="preserve">
+    <value>MC,38,32,2,300,210,fntConsolas</value>
+  </data>
+  <data name="btnMminus" xml:space="preserve">
+    <value>M-,38,32,2,300,161,fntConsolas</value>
+  </data>
+  <data name="btnMplus" xml:space="preserve">
+    <value>M+,38,32,2,248,161,fntConsolas</value>
+  </data>
+  <data name="btnMR" xml:space="preserve">
+    <value>MR,38,32,2,352,161,fntConsolas</value>
+  </data>
+  <data name="btnMS" xml:space="preserve">
+    <value>MS,38,32,2,248,210,fntConsolas</value>
+  </data>
+  <data name="btnMultiply" xml:space="preserve">
+    <value>*,38,32,2,195,210,fntConsolas</value>
+  </data>
+  <data name="btnNine" xml:space="preserve">
+    <value>9,38,32,2,142,161,fntConsolasBold</value>
+  </data>
+  <data name="btnOne" xml:space="preserve">
+    <value>1,38,32,2,38,257,fntConsolasBold</value>
+  </data>
+  <data name="btnOpenBracket" xml:space="preserve">
+    <value>(,38,32,2,300,113,fntConsolas</value>
+  </data>
+  <data name="btnPerCent" xml:space="preserve">
+    <value>%,38,32,2,248,113,fntConsolas</value>
+  </data>
+  <data name="btnReciprocal" xml:space="preserve">
+    <value>1/x,38,32,2,352,210,fntConsolas</value>
+  </data>
+  <data name="btnResult" xml:space="preserve">
+    <value>Result,92,32,2,195,307,fntConsolas</value>
+  </data>
+  <data name="btnSeven" xml:space="preserve">
+    <value>7,38,32,2,38,161,fntConsolasBold</value>
+  </data>
+  <data name="btnSignChange" xml:space="preserve">
+    <value>+/-,38,32,2,38,307,fntConsolas</value>
+  </data>
+  <data name="btnSine" xml:space="preserve">
+    <value>sin,38,32,2,248,259,fntConsolas</value>
+  </data>
+  <data name="btnSix" xml:space="preserve">
+    <value>6,38,32,2,142,210,fntConsolasBold</value>
+  </data>
+  <data name="btnSubtract" xml:space="preserve">
+    <value>-,38,32,2,195,161,fntConsolas</value>
+  </data>
+  <data name="btnTangent" xml:space="preserve">
+    <value>tan,38,32,2,352,259,fntConsolas</value>
+  </data>
+  <data name="btnThree" xml:space="preserve">
+    <value>3,38,32,2,142,257,fntConsolasBold</value>
+  </data>
+  <data name="btnTwo" xml:space="preserve">
+    <value>2,38,32,2,90,257,fntConsolasBold</value>
+  </data>
+  <data name="btnZero" xml:space="preserve">
+    <value>0,38,32,2,90,307,fntConsolasBold</value>
+  </data>
+</root>
